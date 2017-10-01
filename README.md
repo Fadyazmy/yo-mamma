@@ -7,9 +7,14 @@ $ npm install yo-mamma --save
 
 ```javascript
 const yoMamma = require('yo-mamma').default
+let insult;
 
-const insult = yoMamma(); // get random joke
+// get random joke
+insult = yoMamma(); 
 
-console.log(insult);
+// get specific joke
+insult = yoMamma(1); 
+
 //Yo mama is so old that she knew Burger King while he was still a prince.
+console.log(insult);
 ```
