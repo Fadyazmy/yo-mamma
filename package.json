@@ -1,0 +1,39 @@
+{
+  "name": "yo-mamma",
+  "version": "1.0.0",
+  "description": "provide the best yo mama jokes",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fadyazmy/yo-mamma.git"
+  },
+  "keywords": [
+    "yo",
+    "mama",
+    "jokes",
+    "joke"
+  ],
+  "author": "Fady Azmy <fadood@live.co.uk> (https://fadyazmy.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fadyazmy/yo-mamma/issues"
+  },
+  "homepage": "https://github.com/Fadyazmy/yo-mamma#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^21.2.1",
+    "watch": "^1.0.2"
+  }
+}
