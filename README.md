@@ -18,3 +18,6 @@ insult = yoMamma(1);
 //Yo mama is so old that she knew Burger King while he was still a prince.
 console.log(insult);
 ```
+
+### TODO
+- Add more tests
