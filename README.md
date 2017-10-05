@@ -1,3 +1,4 @@
+[![NPM](https://nodei.co/npm/yo-mamma.png?compact=true)](https://npmjs.org/package/yo-mamma)
 # yo-mamma
 
 ```shell
