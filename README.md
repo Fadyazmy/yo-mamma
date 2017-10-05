@@ -7,7 +7,7 @@ $ npm install yo-mamma --save
 
 
 ```javascript
-const yoMamma = require('yo-mamma').default
+const yoMamma = require('yo-mamma').default;
 let insult;
 
 // get random joke
